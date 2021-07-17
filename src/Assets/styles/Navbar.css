@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Tech Block";
+    src: url('../fonts/Parisienne.ttf') format('truetype');
+}
+
+.navbar {
+    padding-left: 7vw;
+    padding-right: 5vw;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar.active {
+    background-color: #000321;
+}
+
+.title-name {
+    font-family: "Tech Block", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navLink {
+    margin-right: 50px;
+}
+
+.navLink:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 25px #fff;
+}

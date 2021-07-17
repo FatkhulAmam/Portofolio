@@ -8,35 +8,44 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
+import '../Assets/styles/Navbar.css';
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
+  const changeNavBackground = () => {
+    if (window.scrollY >= 50) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeNavBackground);
+
   return (
-    <div className="shadow-sm bg-primary">
-      <Navbar light expand="md" className="container navbar-dark">
-        <NavbarBrand href="/">Fatkhul Amam</NavbarBrand>
+    <>
+      <Navbar expand="md" dark className={navbar ? 'fixed-top navbar active' : 'fixed-top navbar'}>
+        <NavbarBrand href="#home" className="title-name">Fatkhul Amam</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ms-auto" navbar>
+          <Nav className="ms-auto nav" navbar>
             <NavItem>
-              <NavLink href="/Portofolio/" className="active">Home</NavLink>
+              <NavLink href="#work-experience" className="navLink">Experience</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/FatkhulAmam/">About</NavLink>
+              <NavLink href="#project" className="navLink mr-5">Project</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/Portofolio/">Project</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/Portofolio/">Contact</NavLink>
+              <NavLink href="/contact/" className="navLink">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
-    </div>
+    </>
   );
 };
 

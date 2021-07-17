@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Times New Roman";
+    src: url('../fonts/TimesNewRoman.ttf') format('truetype');
+}
+
+.home {
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #000321;
+}
+
+/* card style */
+.card-wrap {
+    width: 300px;
+    margin: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .contact-wrap {
+        width: 100px;
+    }
+}
