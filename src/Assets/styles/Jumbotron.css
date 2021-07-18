@@ -1,5 +1,4 @@
 .jumbotron {
-    padding-top: 10rem;
     background-image: url('../images/background.jpg');
     background-size: cover;
     color: #ffffff;
@@ -19,10 +18,6 @@
 .jumbotron .container{
     z-index: 1;
     position: relative;
-}
-
-.img-thumbnail {
-    margin-top: 75px;
 }
 
 .about-me {

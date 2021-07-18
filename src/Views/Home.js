@@ -62,23 +62,23 @@ export default function Home() {
       </section>
       <section id="stack" className="p-5 container">
         <h2 className="text-center mb-4">Technology</h2>
-        <div className="d-flex justify-content-between">
-          <div>
+        <div className="row justify-content-between text-center">
+          <div className="col-sm-3">
             <a href="https://www.javascript.com/" className="col-sm-3">
               <img alt="javascript" src={javascript} width={300} />
             </a>
           </div>
-          <div>
+          <div className="col-sm-3">
             <a href="https://nodejs.org/" className="col-sm-3">
               <img alt="node" src={node} width={300} />
             </a>
           </div>
-          <div>
+          <div className="col-sm-3">
             <a href="https://reactjs.org/" className="col-sm-3">
               <img alt="react" src={reactredux} width={300} />
             </a>
           </div>
-          <div>
+          <div className="col-sm-3">
             <a href="https://reactnative.dev/" className="col-sm-3">
               <img alt="reactnative" src={reactnative} width={300} />
             </a>
@@ -88,14 +88,14 @@ export default function Home() {
       <section id="project" className="p-5 bg-light">
         <div className="container">
           <h2 className="text-center">Contact</h2>
-          <div className="d-flex justify-content-center contact-wrap">
-            <div>
+          <div className="row justify-content-center contact-wrap">
+            <div className="col-sm-3">
               <CardContact email title="Gmail" content="afatkhulamam@gmail.com" link="mailto:afatkhulamam@gmail.com" />
             </div>
-            <div>
+            <div className="col-sm-3">
               <CardContact phone title="Phone / Whatsapp /Telegram" content="+62 81218263258" link="https://wa.me/6281218263258" />
             </div>
-            <div>
+            <div className="col-sm-3">
               <CardContact address title="Address" content="Yogyakarta, Indonesia" link="https://www.google.com/maps/place/Yogyakarta,+Kota+Yogyakarta,+Daerah+Istimewa+Yogyakarta/@-7.803249,110.3398253,13z/data=!3m1!4b1!4m5!3m4!1s0x2e7a5787bd5b6bc5:0x21723fd4d3684f71!8m2!3d-7.7955798!4d110.3694896" />
             </div>
           </div>
