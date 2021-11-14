@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.31d6c645.chunk.css",
-    "main.js": "/portofolio/static/js/main.3f920ea7.chunk.js",
-    "main.js.map": "/portofolio/static/js/main.3f920ea7.chunk.js.map",
-    "runtime-main.js": "/portofolio/static/js/runtime-main.56d3e8e7.js",
-    "runtime-main.js.map": "/portofolio/static/js/runtime-main.56d3e8e7.js.map",
-    "static/js/2.1e0caff1.chunk.js": "/portofolio/static/js/2.1e0caff1.chunk.js",
-    "static/js/2.1e0caff1.chunk.js.map": "/portofolio/static/js/2.1e0caff1.chunk.js.map",
-    "static/js/3.103ee2f5.chunk.js": "/portofolio/static/js/3.103ee2f5.chunk.js",
-    "static/js/3.103ee2f5.chunk.js.map": "/portofolio/static/js/3.103ee2f5.chunk.js.map",
+    "main.css": "/portofolio/static/css/main.627cc81d.chunk.css",
+    "main.js": "/portofolio/static/js/main.df21e948.chunk.js",
+    "main.js.map": "/portofolio/static/js/main.df21e948.chunk.js.map",
+    "runtime-main.js": "/portofolio/static/js/runtime-main.dc0a33f3.js",
+    "runtime-main.js.map": "/portofolio/static/js/runtime-main.dc0a33f3.js.map",
+    "static/js/2.f5d2cfbd.chunk.js": "/portofolio/static/js/2.f5d2cfbd.chunk.js",
+    "static/js/2.f5d2cfbd.chunk.js.map": "/portofolio/static/js/2.f5d2cfbd.chunk.js.map",
+    "static/js/3.94c01488.chunk.js": "/portofolio/static/js/3.94c01488.chunk.js",
+    "static/js/3.94c01488.chunk.js.map": "/portofolio/static/js/3.94c01488.chunk.js.map",
     "index.html": "/portofolio/index.html",
-    "static/css/main.31d6c645.chunk.css.map": "/portofolio/static/css/main.31d6c645.chunk.css.map",
-    "static/js/2.1e0caff1.chunk.js.LICENSE.txt": "/portofolio/static/js/2.1e0caff1.chunk.js.LICENSE.txt",
-    "static/media/Navbar.css": "/portofolio/static/media/Parisienne.43979c8f.ttf",
+    "static/css/main.627cc81d.chunk.css.map": "/portofolio/static/css/main.627cc81d.chunk.css.map",
+    "static/js/2.f5d2cfbd.chunk.js.LICENSE.txt": "/portofolio/static/js/2.f5d2cfbd.chunk.js.LICENSE.txt",
+    "static/media/Navbar.css": "/portofolio/static/media/PlayfairDisplayBold.efceb7cb.otf",
     "static/media/Home.css": "/portofolio/static/media/TimesNewRoman.f85717da.ttf",
     "static/media/Jumbotron.css": "/portofolio/static/media/background.882b6608.jpg",
     "static/media/javascript.f0454ab8.jpeg": "/portofolio/static/media/javascript.f0454ab8.jpeg",
     "static/media/node.9aaa4726.jpeg": "/portofolio/static/media/node.9aaa4726.jpeg",
-    "static/media/profile.0df55484.jpeg": "/portofolio/static/media/profile.0df55484.jpeg",
+    "static/media/profile.d71e8633.png": "/portofolio/static/media/profile.d71e8633.png",
     "static/media/reactnative.ab7192f4.jpeg": "/portofolio/static/media/reactnative.ab7192f4.jpeg",
     "static/media/reactredux.aeb3b35d.jpeg": "/portofolio/static/media/reactredux.aeb3b35d.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.56d3e8e7.js",
-    "static/js/2.1e0caff1.chunk.js",
-    "static/css/main.31d6c645.chunk.css",
-    "static/js/main.3f920ea7.chunk.js"
+    "static/js/runtime-main.dc0a33f3.js",
+    "static/js/2.f5d2cfbd.chunk.js",
+    "static/css/main.627cc81d.chunk.css",
+    "static/js/main.df21e948.chunk.js"
   ]
 }
