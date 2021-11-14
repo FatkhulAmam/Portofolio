@@ -1,9 +1,10 @@
+/* eslint-disable max-len */
 import React, { useState } from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 
 // import style
 import '../Assets/styles/Jumbotron.css';
-import Profile from '../Assets/images/profile.jpeg';
+import Profile from '../Assets/images/profile.png';
 
 export default function JumbotronComponent() {
   const [widthIndex, setWidthIndex] = useState(false);
@@ -48,8 +49,9 @@ export default function JumbotronComponent() {
       ) : (
         <div className="container">
           <div className="row align-items-center">
-            <div className="about-me col-sm-9">
+            <div className="about-me col">
               <h3 className="display-6 font-weight-bold">Hii, i am Fatkhul Amam...</h3>
+              <h4>Mobile Developer</h4>
               <p>
                 I am a mobile developer, who is highly dedicated
                 to continuously developing mobile apps.
@@ -61,12 +63,9 @@ export default function JumbotronComponent() {
                 <br />
                 Keep learning...
               </p>
-              <Button href="#work-experience" color="primary">
-                See More...
-              </Button>
             </div>
-            <div className="ms-auto col-sm-3">
-              <img src={Profile} alt="profile" className="rounded-circle img-thumbnail" />
+            <div className="ms-5 col-sm-5 d-flex justify-content-end" style={{ height: 325 }}>
+              <img src={Profile} alt="profile" className="img" style={{ height: 500, width: 650 }} />
             </div>
           </div>
         </div>

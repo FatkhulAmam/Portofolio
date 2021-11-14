@@ -27,25 +27,26 @@ const Example = () => {
   window.addEventListener('scroll', changeNavBackground);
 
   return (
-    <>
-      <Navbar expand="md" dark className={navbar ? 'fixed-top navbar active' : 'fixed-top navbar'}>
-        <NavbarBrand href="#home" className="title-name">Fatkhul Amam</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="ms-auto nav" navbar>
-            <NavItem>
-              <NavLink href="#work-experience" className="navLink">Experience</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#project" className="navLink mr-5">Project</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/contact/" className="navLink">Contact</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
-    </>
+    <Navbar expand="md" dark className={navbar ? 'fixed-top navbar active' : 'fixed-top navbar'}>
+      <NavbarBrand href="#home" className="title-name">Fatkhul Amam</NavbarBrand>
+      <NavbarToggler onClick={toggle} />
+      <Collapse isOpen={isOpen} navbar>
+        <Nav className="ms-auto nav" navbar>
+          <NavItem>
+            <NavLink href="#work-experience" className="navLink text-light">Experience</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#project" className="navLink text-light">Project</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#contact" className="navLink text-light">Contact</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#hobies" className="navLink text-light">Hobies</NavLink>
+          </NavItem>
+        </Nav>
+      </Collapse>
+    </Navbar>
   );
 };
 

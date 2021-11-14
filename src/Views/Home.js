@@ -1,4 +1,8 @@
+/* eslint-disable max-len */
 import React from 'react';
+import {
+  Card, CardBody, CardGroup, CardImg, CardSubtitle, CardText, CardTitle,
+} from 'reactstrap';
 
 // import component
 import {
@@ -20,72 +24,110 @@ import reactnative from '../Assets/images/reactnative.jpeg';
 export default function Home() {
   return (
     <div id="home" className="home">
-      <Jumbotron />
       <Navbar />
-      <section id="work-experience" className="text-center p-5">
+      <Jumbotron />
+      <section id="work-experience" className="text-center bg-light">
         <div className="container col-md-5">
           <h2>Work Experience</h2>
-          <p>Digital Sekuriti Indonesia | 2020 - Now</p>
+          <p>Digital Sekuriti Indonesia | March, 2021 - Now</p>
         </div>
       </section>
-      <section id="project" className="p-5 bg-light">
+      <section id="project">
         <div className="container">
-          <h2 className="text-center">My Project</h2>
-          <div className="row">
-            <div className="col-2">
-              <img src="https://via.placeholder.com/200x250.png" alt="placeholder" />
-            </div>
-            <div className="col">
-              <table>
-                <tr>
-                  <td>1. </td>
-                  <td>App Name: </td>
-                  <td>Maos News</td>
-                </tr>
-                <tr>
-                  <td>2. </td>
-                  <td>Description: </td>
-                  <td>
-                    This application is built using the React Native framework,
-                    and the backend uses Node.Js and the database uses Mysql and ORM sequelize.
-                  </td>
-                </tr>
-                <tr>
-                  <td>3. </td>
-                  <td>Github Repo: </td>
-                  <td><a href="https://github.com/ahmadAmam12/newsPortal-mobile.git">https://github.com/ahmadAmam12/newsPortal-mobile.git</a></td>
-                </tr>
-              </table>
-            </div>
-          </div>
+          <h2 className="text-center text-white">My Project</h2>
+          <CardGroup>
+            <Card className="col-3 m-5 shadow-lg">
+              <CardImg
+                alt="Card image cap"
+                src="https://picsum.photos/318/180"
+                width="100%"
+              />
+              <CardBody>
+                <CardTitle tag="h5">
+                  Card title
+                </CardTitle>
+                <CardSubtitle
+                  className="mb-2 text-muted"
+                  tag="h6"
+                >
+                  Card subtitle
+                </CardSubtitle>
+                <CardText>
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                </CardText>
+              </CardBody>
+            </Card>
+            <Card className="col-3 m-5 shadow-lg">
+              <CardImg
+                alt="Card image cap"
+                src="https://picsum.photos/318/180"
+                width="100%"
+              />
+              <CardBody>
+                <CardTitle tag="h5">
+                  Card title
+                </CardTitle>
+                <CardSubtitle
+                  className="mb-2 text-muted"
+                  tag="h6"
+                >
+                  Card subtitle
+                </CardSubtitle>
+                <CardText>
+                  Some quick example text to build on the card title and make up the bulk of the cards content.
+                </CardText>
+              </CardBody>
+            </Card>
+            <Card className="col-3 m-5 shadow-lg">
+              <CardImg
+                alt="Card image cap"
+                src="https://picsum.photos/318/180"
+                width="100%"
+              />
+              <CardBody>
+                <CardTitle tag="h5">
+                  Card title
+                </CardTitle>
+                <CardSubtitle
+                  className="mb-2 text-muted"
+                  tag="h6"
+                >
+                  Card subtitle
+                </CardSubtitle>
+                <CardText>
+                  Some quick example text to build on the card title and make up the bulk of the cards content.
+                </CardText>
+              </CardBody>
+            </Card>
+          </CardGroup>
         </div>
       </section>
-      <section id="stack" className="p-5 container">
+      <section id="contact" className="bg-white">
         <h2 className="text-center mb-4">Technology</h2>
-        <div className="row justify-content-between text-center">
+        <div className="d-flex justify-content-center text-center">
           <div className="col-sm-3">
             <a href="https://www.javascript.com/" className="col-sm-3">
-              <img alt="javascript" src={javascript} width={300} />
+              <img alt="javascript" src={javascript} width={250} />
             </a>
           </div>
           <div className="col-sm-3">
             <a href="https://nodejs.org/" className="col-sm-3">
-              <img alt="node" src={node} width={300} />
+              <img alt="node" src={node} width={250} />
             </a>
           </div>
           <div className="col-sm-3">
             <a href="https://reactjs.org/" className="col-sm-3">
-              <img alt="react" src={reactredux} width={300} />
+              <img alt="react" src={reactredux} width={250} />
             </a>
           </div>
           <div className="col-sm-3">
             <a href="https://reactnative.dev/" className="col-sm-3">
-              <img alt="reactnative" src={reactnative} width={300} />
+              <img alt="reactnative" src={reactnative} width={250} />
             </a>
           </div>
         </div>
       </section>
-      <section id="project" className="p-5 bg-light">
+      <section id="project" className="bg-light">
         <div className="container">
           <h2 className="text-center">Contact</h2>
           <div className="row justify-content-center contact-wrap">

@@ -5,6 +5,7 @@
 
 .home {
     font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    background-color: rgb(7,34,58);
 }
 
 .footer {
@@ -15,6 +16,11 @@
 .card-wrap {
     width: 300px;
     margin: 25px;
+}
+
+section {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 @media only screen and (max-width: 600px) {

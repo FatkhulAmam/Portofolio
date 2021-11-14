@@ -1,20 +1,20 @@
 @font-face {
-    font-family: "Tech Block";
-    src: url('../fonts/Parisienne.ttf') format('truetype');
+    font-family: "Play fair Display Bold";
+    src: url('../fonts/PlayfairDisplayBold.otf') format('truetype');
 }
 
 .navbar {
     padding-left: 7vw;
     padding-right: 5vw;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 1, 20, 0);
 }
 
 .navbar.active {
-    background-color: #000321;
+    background-color: #000114;
 }
 
 .title-name {
-    font-family: "Tech Block", Arial, Helvetica, sans-serif;
+    font-family: "Play fair Display Bold", Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 30px;
 }
