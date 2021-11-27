@@ -202,7 +202,7 @@ export default function Home() {
         <h1>I Am Fatkhul Amam</h1>
         <h3>Mobile Developer</h3>
         <p>Look at me and lets's scroll down</p>
-        <div className="d-flex justify-content-center mobile-image-wrap" style={{ height: 325 }}>
+        <div className="d-flex justify-content-center mobile-image-wrap">
           <img src={Profile} alt="profile" className="mobile-profile" style={{ height: 310, width: 400 }} />
         </div>
       </div>
